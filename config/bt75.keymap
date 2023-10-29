@@ -5,6 +5,15 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    behaviors {
+        rgb_encoder: rgb_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_ENCODER";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -27,8 +36,7 @@
            &kp LCTRL        &kp LGUI  &kp LALT  &kp SPACE  &kp RALT  &mo 1   &kp RCTRL  &kp LEFT  &kp DOWN   &kp RIGHT
             >;
 
-            sensor-bindings =
-                <&encoder_1 C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         raise {
