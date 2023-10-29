@@ -50,12 +50,12 @@
 
         raise {
             bindings = <
-&trans   &trans                          &trans      &trans     &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans   &trans      &trans           &bl BL_TOG       &rgb_ug RGB_TOG
-&kp ESC  &rgb_ug RGB_COLOR_HSB(0,0,100)  &kp F2      &kp F3     &kp F4  &kp F5  &kp F6  &kp F7      &kp F8           &kp F9           &kp F10          &kp F11  &kp F12     &trans           &rgb_ug RGB_HUI
-&trans   &trans                          &kp UP      &trans     &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans   &trans      &rgb_ug RGB_HUD
-&trans   &kp LEFT                        &kp DOWN    &kp RIGHT  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans   &sys_reset  &bootloader      &rgb_ug RGB_SAI
-&trans   &trans                          &trans      &trans     &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans   &trans      &rgb_ug RGB_SPI  &rgb_ug RGB_SAD
-         &bt BT_PRV                      &bt BT_NXT  &trans     &trans  &trans  &trans  &bt BT_CLR  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF
+&trans  &trans                           &trans      &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &trans           &bl BL_TOG       &rgb_ug RGB_TOG
+&trans  &rgb_ug RGB_COLOR_HSB(0,100,50)  &trans      &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &trans           &rgb_ug RGB_HUI
+&trans  &trans                           &trans      &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &rgb_ug RGB_HUD
+&trans  &trans                           &trans      &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &sys_reset  &bootloader      &rgb_ug RGB_SAI
+&trans  &trans                           &trans      &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &rgb_ug RGB_SPI  &rgb_ug RGB_SAD
+        &bt BT_PRV                       &bt BT_NXT  &trans  &trans  &trans  &trans  &bt BT_CLR  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF
             >;
 
             sensor-bindings = <&bl_encoder &rgb_encoder>;
