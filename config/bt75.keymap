@@ -51,7 +51,7 @@
         raise {
             bindings = <
 &trans  &trans                          &trans                            &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &trans           &bl BL_TOG       &rgb_ug RGB_TOG
-&trans  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(55,100,75)  &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &trans           &rgb_ug RGB_HUI
+&trans  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(38,100,50)  &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &trans           &rgb_ug RGB_HUI
 &trans  &trans                          &trans                            &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &rgb_ug RGB_HUD
 &trans  &trans                          &trans                            &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &sys_reset  &bootloader      &rgb_ug RGB_SAI
 &trans  &trans                          &trans                            &trans  &trans  &trans  &trans  &trans      &trans           &trans           &trans           &trans  &trans      &rgb_ug RGB_SPI  &rgb_ug RGB_SAD
