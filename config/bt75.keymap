@@ -52,7 +52,7 @@
             &bt BT_PRV    &bt BT_NXT    &trans      &trans  &trans  &trans  &bt BT_CLR  &trans   &trans  &bl BL_DEC
             >;
 
-            sensor-bindings = <&inc_dec_kp BL_DEC BL_INC &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
