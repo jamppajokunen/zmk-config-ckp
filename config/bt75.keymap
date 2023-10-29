@@ -13,7 +13,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "RGB_ENCODER";
             #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+            bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
         };
     };
 
@@ -52,7 +52,7 @@
             &bt BT_PRV    &bt BT_NXT    &trans      &trans  &trans  &trans  &bt BT_CLR  &trans   &trans  &bl BL_DEC
             >;
 
-            sensor-bindings = <&rgb_encoder &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &rgb_encoder>;
         };
     };
 };
