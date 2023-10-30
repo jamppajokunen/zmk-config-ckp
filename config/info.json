@@ -111,7 +111,7 @@
       "name": "encoder_2",
       "identifier": "encoder_2",
       "compatible": "alps,ec11",
-      "label": "encoder_1",
+      "label": "encoder_2",
       "enabled": true
     }
   ]
