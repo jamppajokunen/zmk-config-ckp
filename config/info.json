@@ -103,7 +103,7 @@
       "name": "encoder_1",
       "identifier": "encoder_1",
       "compatible": "alps,ec11",
-      "label": "ENCODER_ONE",
+      "label": "encoder_1",
       "enabled": true
     },
     {
@@ -111,7 +111,7 @@
       "name": "encoder_2",
       "identifier": "encoder_2",
       "compatible": "alps,ec11",
-      "label": "ENCODER_TWO",
+      "label": "encoder_1",
       "enabled": true
     }
   ]
