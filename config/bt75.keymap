@@ -53,11 +53,11 @@
 
         raise {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans           &bl BL_TOG       &rgb_ug RGB_TOG
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans           &rgb_ug RGB_HUI
-&trans  &trans        &trans        &trans        &sys_reset    &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &rgb_ug RGB_HUD
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &bootloader      &rgb_ug RGB_SAI
-&trans  &trans        &trans        &trans        &bt BT_CLR    &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_SAD
+&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans           &bl BL_TOG  &rgb_ug RGB_TOG
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans           &trans
+&trans  &trans        &trans        &trans        &sys_reset    &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &bootloader      &trans
+&trans  &trans        &trans        &trans        &bt BT_CLR    &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &rgb_ug RGB_SPI  &trans
         &trans        &trans        &trans        &trans        &trans        &trans  &mo 2   &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF
             >;
 
