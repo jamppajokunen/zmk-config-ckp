@@ -86,7 +86,7 @@
         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&bl_brightness &rgb_brightness>;
+            sensor-bindings = <&rgb_sat &rgb_hue>;
         };
     };
 };
