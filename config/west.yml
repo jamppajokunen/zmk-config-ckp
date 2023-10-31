@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: Xoffio
-      revision: xo-status-fx
+      revision: main
       import: app/west.yml
   self:
     path: config
