@@ -9,20 +9,30 @@
 
 / {
     behaviors {
-        rgb_encoder: rgb_encoder {
+        rgb_brightness: rgb_brightness {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_ENCODER";
+            label = "RGB_BRIGHTNESS";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
         };
-        bl_encoder: bl_encoder {
+        bl_brightness: bl_brightness {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "BL_ENCODER";
+            label = "BL_BRIGHTNESS";
             #sensor-binding-cells = <0>;
             bindings = <&bl BL_DEC>, <&bl BL_INC>;
         };
-    };
-
+        rgb_hue: rgb_hue {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_HUE";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
+        };
+        rgb_sat: rgb_sat {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_SAT";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
+        };
     macros {
     };
 
@@ -61,7 +71,7 @@
         &trans        &trans        &trans        &trans        &trans        &trans  &mo 2   &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF
             >;
 
-            sensor-bindings = <&bl_encoder &rgb_encoder>;
+            sensor-bindings = <&bl_brightness &rgb_brightness>;
         };
 
         layer_2 {
@@ -74,7 +84,7 @@
         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RGB_SAI RGB_SAD &inc_dec_kp RGB_HUI RGB_HUD>;
+            sensor-bindings = <&rgb_sat &rgb_hue>;
         };
     };
 };
