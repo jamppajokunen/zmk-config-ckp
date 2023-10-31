@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: ReFil
+      url-base: https://github.com/ReFil
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: ReFil
+      revision: rgb-momentary-eff
       import: app/west.yml
   self:
     path: config
