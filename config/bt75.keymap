@@ -21,19 +21,18 @@
             #sensor-binding-cells = <0>;
             bindings = <&bl BL_DEC>, <&bl BL_INC>;
         };
-
-        //        rgb_hue: rgb_hue {
-        //            compatible = "zmk,behavior-sensor-rotate";
-        //            label = "RGB_HUE";
-        //            #sensor-binding-cells = <0>;
-        //            bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
-        //        };
-        //       rgb_sat: rgb_sat {
-        ////           compatible = "zmk,behavior-sensor-rotate";
-        //            label = "RGB_SAT";
-        //           #sensor-binding-cells = <0>;
-        //           bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
-        //       };
+         rgb_hue: rgb_hue {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_HUE";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
+        };
+        rgb_sat: rgb_sat {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_SAT";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
+        };
     };
 
     macros {
