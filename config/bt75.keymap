@@ -42,7 +42,7 @@
             bindings = <&bt BT_SEL 0>,
                         <&rgb_ug RGB_COLOR_HSB(0,100,50)>,
                         <&macro_press &rgb_ug RGB_EFS RGB_EFF_SOLID>,
-                        <&macro_pause_for_release>
+                        <&macro_pause_for_release>,
                         <&macro_release>;
 
             label = "MACRO_TEST";
