@@ -39,7 +39,7 @@
         macro_test: macro_test {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,100,50)>, <&macro_tap>, <&kp A>;
+            bindings = <&macro_press>, <&rgb_ug RGB_COLOR_HSB(0,100,50)>, <&kp A>;
 
             label = "MACRO_TEST";
         };
