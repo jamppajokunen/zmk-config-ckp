@@ -65,7 +65,7 @@
 
         raise {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans           &bl BL_TOG  &rgb_ug RGB_TOG
+&trans  &rgb_ug RGB_EFS  RGB_EFF_SOLID          &rgb_ug RGB_EFS RGB_EFF_BREATHE          &rgb_ug RGB_EFS RGB_EFF_SPECTRUM        &rgb_ug RGB_EFS RGB_EFF_SWIRL            &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans           &bl BL_TOG  &rgb_ug RGB_TOG
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans           &trans
 &trans  &trans        &trans        &trans        &sys_reset    &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans           &trans           &trans           &trans  &trans  &bootloader      &trans
@@ -79,7 +79,7 @@
         layer_2 {
             bindings = <
 &trans  &trans                            &trans     &trans           &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &rgb_ug RGB_EFS RGB_EFF_SPECTRUM  &kp A      &kp B            &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp A      &kp B            &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp KP_N7                         &kp KP_N8  &kp KP_N9        &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp KP_N4                         &kp KP_N5  &kp KP_N6        &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                            &kp KP_N1  &kp KP_NUMBER_2  &kp KP_N3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
