@@ -36,7 +36,7 @@
     };
 
     macros {
-        macro_test: macro_test {
+        macro_test: macro_bl_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -44,8 +44,7 @@
                 <&macro_press &rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
                 <&macro_release &rgb_ug RGB_MEFS RGB_EFF_SOLID>;
-
-            label = "MACRO_TEST";
+            label = "macro_bl_0";
         };
     };
 
