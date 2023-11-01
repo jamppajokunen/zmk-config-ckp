@@ -41,10 +41,9 @@
             #binding-cells = <0>;
             bindings =
                 <&bt BT_SEL 0 &rgb_ug RGB_COLOR_HSB(0,100,100)>,
-                <&macro_press>,
-                <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
+                <&macro_press &rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
-                <&macro_release>;
+                <&macro_release &rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "MACRO_TEST";
         };
