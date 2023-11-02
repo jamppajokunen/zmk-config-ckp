@@ -122,7 +122,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&to 1>,
+                <&to 0>,
                 <&macro_release>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
