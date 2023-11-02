@@ -105,7 +105,29 @@
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_4";
+
+        macro_caps_on: macro_caps_on {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 1 &rgb_ug RGB_COLOR_HSB(0,100,100)>,
+                <&macro_press>,
+                <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
+
+            label = "macro_caps_on";
         };
+
+        macro_caps_off: macro_caps_off {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 1>,
+                <&macro_release>,
+                <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
+
+            label = "macro_caps_off";
     };
 
     keymap {
