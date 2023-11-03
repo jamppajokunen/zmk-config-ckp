@@ -166,6 +166,11 @@
 &kp LSHFT        &kp NON_US_BSLH  &kp Z     &kp X     &kp C      &kp V     &kp B   &kp N      &kp M     &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT        &kp UP         &kp INS
                  &kp LCTRL        &kp LGUI  &kp LALT  &kp SPACE  &kp RALT  &mo 3   &kp RCTRL  &kp LEFT  &kp DOWN   &kp RIGHT
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp UP DOWN>;
+
         };
 
         config1 {
