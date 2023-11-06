@@ -45,8 +45,8 @@
                 <&macro_press>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
                 <&macro_wait_time 500>,
+                <&macro_release>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_0";
@@ -60,8 +60,8 @@
                 <&macro_press>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
                 <&macro_wait_time 500>,
+                <&macro_release>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_1";
@@ -75,8 +75,8 @@
                 <&macro_press>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
                 <&macro_wait_time 500>,
+                <&macro_release>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_2";
@@ -90,8 +90,8 @@
                 <&macro_press>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
                 <&macro_wait_time 500>,
+                <&macro_release>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_3";
@@ -105,8 +105,8 @@
                 <&macro_press>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
                 <&macro_wait_time 500>,
+                <&macro_release>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_4";
@@ -175,7 +175,6 @@
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
                 <&inc_dec_kp UP DOWN>;
-
         };
 
         config1 {
