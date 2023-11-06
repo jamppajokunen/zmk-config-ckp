@@ -46,6 +46,7 @@
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
+                <&macro_wait_time 500>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_0";
@@ -60,6 +61,7 @@
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
+                <&macro_wait_time 500>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_1";
@@ -74,6 +76,7 @@
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
+                <&macro_wait_time 500>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_2";
@@ -88,6 +91,7 @@
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
+                <&macro_wait_time 500>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_3";
@@ -102,6 +106,7 @@
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
+                <&macro_wait_time 500>,
                 <&rgb_ug RGB_MEFS RGB_EFF_SOLID>;
 
             label = "macro_bl_4";
