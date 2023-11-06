@@ -39,6 +39,7 @@
         macro_bl_0: macro_bl_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <10>;
             bindings =
                 <&macro_tap>,
                 <&bt BT_SEL 0 &rgb_ug RGB_COLOR_HSB(190,100,100)>,
@@ -54,6 +55,7 @@
         macro_bl_1: macro_bl_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <10>;
             bindings =
                 <&macro_tap>,
                 <&bt BT_SEL 1 &rgb_ug RGB_COLOR_HSB(262,100,100)>,
@@ -69,6 +71,7 @@
         macro_bl_2: macro_bl_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <10>;
             bindings =
                 <&macro_tap>,
                 <&bt BT_SEL 2 &rgb_ug RGB_COLOR_HSB(334,100,100)>,
@@ -84,6 +87,7 @@
         macro_bl_3: macro_bl_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <10>;
             bindings =
                 <&macro_tap>,
                 <&bt BT_SEL 3 &rgb_ug RGB_COLOR_HSB(46,100,100)>,
@@ -99,6 +103,7 @@
         macro_bl_4: macro_bl_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <10>;
             bindings =
                 <&macro_tap>,
                 <&bt BT_SEL 4 &rgb_ug RGB_COLOR_HSB(118,100,100)>,
