@@ -8,7 +8,7 @@
 //&encoder_3 { resolution = <2>; };
 //&encoder_2 { resolution = <2>; };
 
-/{
+{
     behaviors {
         rgb_brightness: rgb_brightness {
             compatible = "zmk,behavior-sensor-rotate";
