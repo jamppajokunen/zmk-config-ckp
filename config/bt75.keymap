@@ -39,10 +39,9 @@
         };
 
         rotary_lr_mode: behavior {
-            bindings = <
-            &kp KC_LEFT  // Rotate counterclockwise: left arrow
-            &kp KC_RIGHT // Rotate clockwise: right arrow
-            >;
+            compatible = "zmk,behavior-sensor-rotate";  
+            label = "ROTARY_L_R";
+            bindings = <&kp KC_LEFT>, <&kp KC_RIGHT>;
         };
 
     };
