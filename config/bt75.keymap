@@ -38,9 +38,9 @@
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
 
-        rotary_toggle_press: rotary_toggle_press {
+        rotary_test: rotary_test {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "rotary_toggle_press";
+            label = "TEST";
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
 
