@@ -38,9 +38,10 @@
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
 
-        rotary_lr_mode: rotary_lr_mode {
-            compatible = "zmk,behavior-sensor-rotate";  
-            label = "ROTARY_L_R";
+        rgb_sat1: rgb_sat1 {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_SAT1";
+            #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
 
