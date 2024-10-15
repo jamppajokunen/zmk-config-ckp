@@ -37,6 +37,14 @@
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
+
+        rotary_lr_mode: behavior {
+            bindings = <
+            &kp KC_LEFT  // Rotate counterclockwise: left arrow
+            &kp KC_RIGHT // Rotate clockwise: right arrow
+            >;
+        };
+
     };
 
     macros {
