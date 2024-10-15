@@ -38,10 +38,9 @@
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
 
-        rgb_sat1: rgb_sat1 {
+        rotary_toggle_press: rotary_toggle_press {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_SAT1";
-            #sensor-binding-cells = <0>;
+            label = "rotary_toggle_press";
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
 
