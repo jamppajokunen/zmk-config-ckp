@@ -45,13 +45,13 @@
             off-bindings = <&rotary_ud_mode>;
         };
 
-        rotary_ud_mode: behavior-sensor-rotate {
+        rotary_ud_mode: behavior-sensor-rotate-updown {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ROTARY_UD_MODE";
             bindings = <&kp UP>, <&kp DOWN>;
         };
 
-        rotary_lr_mode: behavior-sensor-rotate {
+        rotary_lr_mode: behavior-sensor-rotate-leftright {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ROTARY_LR_MODE";
             bindings = <&kp LEFT>, <&kp RIGHT>;
