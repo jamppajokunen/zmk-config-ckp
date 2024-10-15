@@ -37,8 +37,6 @@
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
-};
-
     };
 
     macros {
