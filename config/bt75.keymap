@@ -12,28 +12,28 @@
     behaviors {
         rgb_brightness: rgb_brightness {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_BRIGHTNESS";
+            //label = "RGB_BRIGHTNESS";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
         };
 
         bl_brightness: bl_brightness {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "BL_BRIGHTNESS";
+            //label = "BL_BRIGHTNESS";
             #sensor-binding-cells = <0>;
             bindings = <&bl BL_DEC>, <&bl BL_INC>;
         };
 
         rgb_hue: rgb_hue {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_HUE";
+            //label = "RGB_HUE";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
         };
 
         rgb_sat: rgb_sat {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_SAT";
+            //label = "RGB_SAT";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
