@@ -41,7 +41,7 @@
         rotary_lr_mode: behavior {
             compatible = "zmk,behavior-sensor-rotate";  
             label = "ROTARY_L_R";
-            bindings = <&kp KC_LEFT>, <&kp KC_RIGHT>;
+            bindings = <&rgb_ug KC_LEFT>, <&rgb_ug KC_RIGHT>;
         };
 
     };
