@@ -41,6 +41,7 @@
         rotary_toggle_press: behavior-toggle {
             compatible = "zmk,behavior-toggle";
             label = "ROTARY_TOGGLE_PRESS";
+            #sensor-binding-cells = <1>
             on-bindings = <&rotary_lr_mode>;
             off-bindings = <&rotary_ud_mode>;
         };
