@@ -38,20 +38,20 @@
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
 
-        rotary_toggle_press: behavior {
+        rotary_toggle_press: behavior-toggle {
             compatible = "zmk,behavior-toggle";
             label = "ROTARY_TOGGLE_PRESS";
             on-bindings = <&rotary_lr_mode>;
             off-bindings = <&rotary_ud_mode>;
         };
 
-        rotary_ud_mode: behavior {
+        rotary_ud_mode: behavior-sensor-rotate {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ROTARY_UD_MODE";
             bindings = <&kp UP>, <&kp DOWN>;
         };
 
-        rotary_lr_mode: behavior {
+        rotary_lr_mode: behavior-sensor-rotate {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ROTARY_LR_MODE";
             bindings = <&kp LEFT>, <&kp RIGHT>;
