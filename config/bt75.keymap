@@ -12,53 +12,53 @@
     behaviors {
         rgb_brightness: rgb_brightness {
             compatible = "zmk,behavior-sensor-rotate";
-            //label = "RGB_BRIGHTNESS";
+            label = "RGB_BRIGHTNESS";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
         };
 
         bl_brightness: bl_brightness {
             compatible = "zmk,behavior-sensor-rotate";
-            //label = "BL_BRIGHTNESS";
+            label = "BL_BRIGHTNESS";
             #sensor-binding-cells = <0>;
             bindings = <&bl BL_DEC>, <&bl BL_INC>;
         };
 
         rgb_hue: rgb_hue {
             compatible = "zmk,behavior-sensor-rotate";
-            //label = "RGB_HUE";
+            label = "RGB_HUE";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
         };
 
         rgb_sat: rgb_sat {
             compatible = "zmk,behavior-sensor-rotate";
-            //label = "RGB_SAT";
+            label = "RGB_SAT";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_SAD>, <&rgb_ug RGB_SAI>;
         };
 
-        rotary_toggle_press: behavior-toggle {
-            compatible = "zmk,behavior-toggle";
+        //rotary_toggle_press: behavior-toggle {
+            //compatible = "zmk,behavior-toggle";
             //label = "ROTARY_TOGGLE_PRESS";
-            #sensor-binding-cells = <1>;
-            on-bindings = <&rotary_lr_mode>;
-            off-bindings = <&rotary_ud_mode>;
-        };
+            //#sensor-binding-cells = <1>;
+            //on-bindings = <&rotary_lr_mode>;
+           // off-bindings = <&rotary_ud_mode>;
+        //};
 
-        rotary_ud_mode: behavior-sensor-rotate-updown {
-            compatible = "zmk,behavior-sensor-rotate";
+        //rotary_ud_mode: behavior-sensor-rotate-updown {
+            //compatible = "zmk,behavior-sensor-rotate";
             //label = "ROTARY_UD_MODE";
-            #sensor-binding-cells = <1>;
-            bindings = <&kp UP>, <&kp DOWN>;
-        };
+            //#sensor-binding-cells = <1>;
+           // bindings = <&kp UP>, <&kp DOWN>;
+       // };
 
-        rotary_lr_mode: behavior-sensor-rotate-leftright {
-            compatible = "zmk,behavior-sensor-rotate";
+        //rotary_lr_mode: behavior-sensor-rotate-leftright {
+            //compatible = "zmk,behavior-sensor-rotate";
             //label = "ROTARY_LR_MODE";
-            #sensor-binding-cells = <1>;
-            bindings = <&kp LEFT>, <&kp RIGHT>;
-        };
+           // #sensor-binding-cells = <1>;
+            //bindings = <&kp LEFT>, <&kp RIGHT>;
+       // };
 
     };
 
